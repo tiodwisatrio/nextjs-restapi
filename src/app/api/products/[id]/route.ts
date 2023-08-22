@@ -25,12 +25,6 @@ export const GET = async (req: Request, res: Response) => {
 }
 
 
-export const POST = async (req: Request, res: Response) => {
-    console.log("POST")
-
-    // CREATE PRODUCT
-}
-
 export const PUT = async (req: Request, res: Response) => {
     try {
         const { name, price, description } = await req.json();
